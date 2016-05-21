@@ -9,5 +9,5 @@ set cindent\n"
 find /etc -name 'vimrc' | grep '[v][i][m][r][c]' > vim_path	#5月21日修改，但是有bug，如果已经存在vim_path这个文件就会出问题
 
 PATH=$(cat vim_path)
-rm -rf vim_path
+rm  vim_path
 echo -e $STR >> $PATH

@@ -1,1 +1,1 @@
-This is a shell to help people config his vim = 3local
+This is a shell to help people config his vim = 3local2
